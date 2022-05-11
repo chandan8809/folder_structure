@@ -1,0 +1,67 @@
+export const fileData={
+    name:"PROJECT",
+    isFolder:true,
+    inside:[
+        {
+            name:"folderStrcture",
+            isFolder:true,
+            inside:[
+                {
+                    name:"nodeModules",
+                    isFolder:true,
+                    inside:[
+                        {
+                            name:".bin",
+                            isFolder:false
+                        },
+                        {
+                            name:".vite",
+                            isFolder:false
+                        }
+                    ]
+                },
+                {
+                    name:"src",
+                    isFolder:true,
+                    inside:[
+                        {
+                            name:"App.css",
+                            isFolder:false
+                        },
+                        {
+                            name:"App.jsx",
+                            isFolder:false
+                        },
+                        {
+                            name:"files.js",
+                            isFolder:false
+                        },
+                        {
+                            name:"index.js",
+                            isFolder:false
+                        }
+                    ]
+
+                },
+                {
+                    name:".gitignore",
+                    isFolder:false
+                },
+                {
+                    name:"index.html",
+                    isFolder:false
+                },
+                {
+                    name:"package-lock.json",
+                    isFolder:false
+                },
+                {
+                    name:"package.json",
+                    isFolder:false
+                },
+               
+
+            ]
+        }
+    ]
+}
